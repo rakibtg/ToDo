@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+  <div class="container" onclick="toDoApp.closeToDoOptions()">
+    <header>
+      <img src="./assets/images/task-logo.png" alt="To Do Logo" />
+      <div>To do</div>
+    </header>
+
+    <div class="app-container">
+      <div class="col-a form-outer">
+        <form class="todo-form" action="" method="post" onsubmit="toDoApp.add( event )">
+          <input type="text" name="task" id="task" class="task-input" placeholder="type task" required />
+          <input type="submit" id="submit" class="task-submit" value="Add New Task" />
+        </form>
+      </div>
+      <div class="col-b">
+        <div class="tasks-component">
+          <div class="task-header">
+            <div onclick="toDoApp.toDoRenderType( 'all' )" id="all" class="activetype">All</div>
+            <div onclick="toDoApp.toDoRenderType( 'completed' )" id="completed">Completed</div>
+            <div onclick="toDoApp.toDoRenderType( 'active' )" id="active">Active</div>
+          </div>
+          <div class="task-body" id="taskcollections"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

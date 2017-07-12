@@ -1,0 +1,41 @@
+[  
+  {  
+    "name":"ButtonGradientCol1",
+    "color":{  
+      "r":66,
+      "g":44,
+      "b":179,
+      "a":1,
+      "color-hex":"#422CB3 100%",
+      "argb-hex":"#FF422CB3",
+      "css-rgba":"rgba(66,44,179,1)",
+      "ui-color":"(r:0.26 g:0.17 b:0.70 a:1.00)"
+    }
+  },
+  {  
+    "name":"ButtonGradientCol2",
+    "color":{  
+      "r":167,
+      "g":93,
+      "b":206,
+      "a":1,
+      "color-hex":"#A75DCE 100%",
+      "argb-hex":"#FFA75DCE",
+      "css-rgba":"rgba(167,93,206,1)",
+      "ui-color":"(r:0.65 g:0.36 b:0.81 a:1.00)"
+    }
+  },
+  {  
+    "name":"TaskslistCol1",
+    "color":{  
+      "r":255,
+      "g":255,
+      "b":255,
+      "a":0.8000000715255737,
+      "color-hex":"#FFFFFF 80%",
+      "argb-hex":"#CCFFFFFF",
+      "css-rgba":"rgba(255,255,255,0.8)",
+      "ui-color":"(r:1.00 g:1.00 b:1.00 a:0.80)"
+    }
+  }
+]
